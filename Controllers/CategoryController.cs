@@ -12,7 +12,7 @@ namespace ProductCatalog.Controllers
         private readonly StoreDataContext _context;
 
         public CategoryController(StoreDataContext context)
-        {
+        {            
             _context = context;
         }
 
