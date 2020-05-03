@@ -46,10 +46,10 @@ namespace ProductCatalog.Controllers
             var product = new Product();
             product.Title = model.Title;
             product.CategoryId = model.CategoryId;
-            product.CreateDate = DateTime.Now; // Nunca recebe esta informação
+            product.CreateDate = DateTime.Now; 
             product.Description = model.Description;
             product.Image = model.Image;
-            product.LastUpdateDate = DateTime.Now; // Nunca recebe esta informação
+            product.LastUpdateDate = DateTime.Now; 
             product.Price = model.Price;
             product.Quantity = model.Quantity;
 
@@ -93,11 +93,10 @@ namespace ProductCatalog.Controllers
             var product = _repository.Get(model.Id);
 
             product.Title = model.Title;
-            product.CategoryId = model.CategoryId;
-            // product.CreateDate = DateTime.Now; // Nunca altera a data de criação
+            product.CategoryId = model.CategoryId;       
             product.Description = model.Description;
             product.Image = model.Image;
-            product.LastUpdateDate = DateTime.Now; // Nunca recebe esta informação
+            product.LastUpdateDate = DateTime.Now;
             product.Price = model.Price;
             product.Quantity = model.Quantity;
 
