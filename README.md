@@ -12,3 +12,4 @@ Neste curso vamos ver uma abordagem diferente na criação de APIs com ASP.NET C
  
  <br/>
  Curso 1976 - balta.io 
+ https://balta.io/cursos/criando-apis-com-aspne-core-e-ef-core
